@@ -13,7 +13,7 @@ Concatenation: Concatenate the summaries of the selected chunks into a single co
 ### Finetune model:
 - BART (facebook/bart-base): finetune with samsum dataset ([dataset link](Samsung/samsum)) using to summarize English conversation and text.<br />
 [link](https://drive.google.com/drive/folders/1YT3gEFyOAxQOH0mmj5HmnlS_b62Up1q5?usp=sharing) <br />
-Finetuning code: [code](./notebook/dialoguesum.ipynb)
+Finetuning code: [code](./notebook/dialoguesum.ipynb) <br />
 ![](./image/Screenshot%20from%202024-05-29%2018-51-00.png)
 - [Vinallama-2.7b-chat ](vilm/vinallama-2.7b-chat): finetune with vietnews dataset [link](harouzie/vietnews)
 ![](./image/Screenshot%20from%202024-05-29%2018-58-21.png)
