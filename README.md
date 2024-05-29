@@ -11,8 +11,8 @@ Select the top k clusters that are most relevant to the query or context. This c
 Summarization: Use the VinaLLaMa model to summarize each of the selected chunks.
 Concatenation: Concatenate the summaries of the selected chunks into a single cohesive summary.
 ### Finetune model:
-- BART (facebook/bart-base): finetune with samsum dataset ([dataset link](Samsung/samsum)) using to summarize English conversation and text.
-[link](https://drive.google.com/drive/folders/1YT3gEFyOAxQOH0mmj5HmnlS_b62Up1q5?usp=sharing)
+- BART (facebook/bart-base): finetune with samsum dataset ([dataset link](Samsung/samsum)) using to summarize English conversation and text.<br />
+[link](https://drive.google.com/drive/folders/1YT3gEFyOAxQOH0mmj5HmnlS_b62Up1q5?usp=sharing) <br />
 Finetuning code: [code](./notebook/dialoguesum.ipynb)
 ![](./image/Screenshot%20from%202024-05-29%2018-51-00.png)
 - [Vinallama-2.7b-chat ](vilm/vinallama-2.7b-chat): finetune with vietnews dataset [link](harouzie/vietnews)
